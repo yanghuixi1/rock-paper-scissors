@@ -5,9 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Thanks for playing!</h1>
+    <div class="selections">
+      <button class="selection" data-selection="rock">✊</button>
+      <button class="selection" data-selection="paper">✋</button>
+      <button class="selection" data-selection="scissors">✌️</button>
+    </div>
+    <div class="results">
+      <div>You<span class="result-score">0</span></div>
+      <div>Computer<span class="result-score">0</span></div>
+      <!-- <div class="result-selection winner">✊</div>
+      <div class="result-selection">✌️</div> -->
+    </div>
+
     <script src="./script.js"></script>
   </body>
 </html>
